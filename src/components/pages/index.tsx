@@ -1,0 +1,1 @@
+export { Intranet } from './intranet/Intranet';

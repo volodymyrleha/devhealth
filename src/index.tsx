@@ -5,11 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Provider theme={ teamsTheme }>
-      <App />
-    </Provider>
-  </React.StrictMode>,
+  <Provider theme={ teamsTheme }>
+    <App />
+  </Provider>,
   document.getElementById('root')
 );
 
